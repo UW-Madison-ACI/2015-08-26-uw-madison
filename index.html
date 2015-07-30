@@ -1,18 +1,18 @@
 ---
 layout: workshop
 root: .
-venue: FIXME      # brief name of host site
-address: FIXME    # street address of home location
-country: FIXME    # country (hyphenated if need be, like 'United-Kingdom')
-language: FIXME   # language code like 'en' or 'fr'
-latlng: FIXME     # fractional latitude and longitude like 41.7901128,-87.6007318
-humandate: FIXME  # use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: FIXME  # use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: FIXME  # use YYYY-MM-DD format like 2015-01-01
-enddate: FIXME    # use YYYY-MM-DD format like 2015-01-02
-instructor: FIXME # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: FIXME     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: FIXME    # contact email address for workshop organizer
+venue: UW Madison      # brief name of host site
+address: 330 North Orchard St    # street address of home location
+country: United-States    # country (hyphenated if need be, like 'United-Kingdom')
+language: 'en'   # language code like 'en' or 'fr'
+latlng: 43.0729124,-89.4080793     # fractional latitude and longitude like 41.7901128,-87.6007318
+humandate: August 26-27, 2015  # use the format 'Feb 17-18, 2020' (without the quotes)
+humantime: 9:00 am - 4:30 pm  # use the format '9:00 am - 4:30 pm' (without the quotes)
+startdate: 2015-08-26  # use YYYY-MM-DD format like 2015-01-01
+enddate: 2015-08-27    # use YYYY-MM-DD format like 2015-01-02
+instructor: ["Christina Koch", "Lauren Michael"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper:      # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact:  lmichael@wisc.edu   # contact email address for workshop organizer
 etherpad:   # optional (insert the URL for your Etherpad if you're using one)
 eventbrite: # optional (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 ---
@@ -76,7 +76,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at graduate students and other researchers.  
 </p>
 
 <!--
@@ -104,7 +104,10 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   Modify the block below if there are any special requirements.
 -->
 <p>
-  <strong>Requirements:</strong> Participants must bring a laptop with
+  <strong>Requirements:</strong> Participants must be affiliated with the 
+  University of Wisconsin-Madison and should plan to be present for ALL days/sessions of the workshop. 
+  It is strongly recommended that participants already be familiar with basic programming concepts like loops, 
+  conditionals, arrays, etc.  Participants must bring a laptop with
   a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
   Software Carpentry's
@@ -264,7 +267,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
       <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
+  <!--<div class="col-md-6">
     <h3>Managing Data with SQL</h3>
     <ul>
       <li>Reading and sorting data</li>
@@ -277,7 +280,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
       <li>Programming with databases</li>
       <li><a href="{{site.swc_lessons}}/ref/04-sql.html">Reference...</a></li>
     </ul>
-  </div>
+  </div>-->
 </div>
 
 <hr/>
@@ -554,8 +557,8 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   </p>
 </div> <!-- End of 'Python' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
+<!-- <div id="r"> <!-- Start of 'R' section. -->
+  <!-- <h3>R</h3>
 
   <p>
     <a href="http://www.r-project.org">R</a> is a programming language
@@ -599,8 +602,8 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   </div>
 </div> <!-- End of 'R' section. -->
 
-<div id="sql"> <!-- Start of 'SQLite' section. -->
-  <h3>SQLite</h3>
+<!--<div id="sql"> <!-- Start of 'SQLite' section. -->
+  <!--<h3>SQLite</h3>
 
   <p>
     SQL is a specialized programming language used with databases.  We
