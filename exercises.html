@@ -18,7 +18,19 @@
   <body class="lesson">
     <div class="container card">
      <h1>Python Exercises</h1>
-      
+
+<h2>Libraries</h2>
+
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>Calculate other statistics</h2>
+</div>
+<div class="panel-body">
+<p>Using additional <code>numpy</code> functions, find the maximum and minimum 
+inflammation values for each patient. </p>
+</div>
+</section>
+    
 <section class="challenge panel panel-success">
 <div class="panel-heading">
 <h2><span class="glyphicon glyphicon-pencil"></span>Make your own plot</h2>
@@ -27,25 +39,84 @@
 <p>Create a plot showing the standard deviation (<code>numpy.std</code>) of the inflammation data for each day across all patients.</p>
 </div>
 </section>
-      
+
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>Finish the plots</h2>
+</div>
+<div class="panel-body">
+<p>Finish our set of plots by adding the minimum and maximum plots.</p>
+</div>
+</section>
+
+<h2>Loops </h2>
+
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>From 1 to N</h2>
+</div>
+<div class="panel-body">
+<p>Python has a built-in function called <code>range</code> that creates a list of numbers. Range can accept 1-3 parameters. If one parameter is input, range creates an array of that length, starting at zero and incrementing by 1. If 2 parameters are input, range starts at the first and ends at the second, incrementing by one. If range is passed 3 parameters, it stars at the first one, ends at the second one, and increments by the third one. For example: <code>range(3)</code> produces <code>[0, 1, 2]</code>, <code>range(2, 5)</code> produces <code>[2, 3, 4]</code>. Using <code>range</code>, write a loop that uses <code>range</code> to print the first 3 natural numbers:</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="dv">1</span>
+<span class="dv">2</span>
+<span class="dv">3</span></code></pre>
+</div>
+</section>
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>Computing powers with loops</h2>
+</div>
+<div class="panel-body">
+<p>Exponentiation is built into Python:</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="dt">print</span> <span class="dv">5</span> ** <span class="dv">3</span>
+<span class="dv">125</span></code></pre>
+<p>Write a loop that calculates the same result as <code>5 ** 3</code> using multiplication (and without exponentiation).</p>
+</div>
+</section>
+
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>Applying for loops to our analysis</h2>
+</div>
+<div class="panel-body">
+<p>Try creating a for loop that will analyze all of our inflammation files - consult with your neighbor if you're feeling stuck! </p>
+</div>
+</section>
+
+<h2>Functions</h2>
+
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>Combining strings</h2>
+</div>
+<div class="panel-body">
+<p>“Adding” two strings produces their concatenation: <code>'a' + 'b'</code> is <code>'ab'</code>. Write a function called <code>fence</code> that takes two parameters called <code>original</code> and <code>wrapper</code> and returns a new string that has the wrapper character at the beginning and end of the original. A call to your function should look like this:</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="dt">print</span> fence(<span class="st">&#39;name&#39;</span>, <span class="st">&#39;*&#39;</span>)
+*name*</code></pre>
+</div>
+</section>
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>Selecting characters from strings</h2>
+</div>
+<div class="panel-body">
+<p>If the variable <code>s</code> refers to a string, then <code>s[0]</code> is the string’s first character and <code>s[-1]</code> is its last. Write a function called <code>outer</code> that returns a string made up of just the first and last characters of its input. A call to your function should look like this:</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="dt">print</span> outer(<span class="st">&#39;helium&#39;</span>)
+hm</code></pre>
+</div>
+</section>
+
+<h2>Conditional Statements</h2>
+
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-pencil"></span>Close enough</h2>
+</div>
+<div class="panel-body">
+<p>Write some conditions that print <code>True</code> if the variable <code>a</code> is within 10% of the variable <code>b</code> and <code>False</code> otherwise. Compare your implementation with your partner’s: do you get the same answer for all possible pairs of numbers?</p>
+</div>
+</section>
+
       </div>
       
     </body>
-
-Min/max
-
-std dev
-
-min max
-
-Finish the function
-
-Loops
-
-1->N / exponents
-
-Put function into loop (w/ neighbor)
-
-wrapper / select
-
-Write loop print filename, analyze file
